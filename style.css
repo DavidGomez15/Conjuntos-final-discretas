@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: #50486B;
+    color: white;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.container{
+    width: 1400px;
+    height: 880px;
+    margin: 20px auto;
+    border: 3px solid white;
+    background:#18122B;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.return{
+    background: transparent;
+    position: relative;
+    left: -660px;
+    top: 20px;
+    
+}
+
+.contenedor2{
+    background: #18122B;
+}
+
+.parrafo{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.titulo{
+    background: #18122B;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -25px;
+    
+}
+
+.parrafo{
+    background: #18122B;
+}
+
+label{
+    background: #18122B;
+    font-size: 20px;
+    
+}
+
+input{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.btn1{
+    width: 70px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+    
+}
+
+
+.ver{
+    display: none;
+}
+
+#zoneValuesU{
+    background: #18122B;
+    margin-top: 5px;
+
+}
+
+
+#zoneValuesU #input21{
+    margin-top: 5px;
+}
+
+#zoneValuesU #btnSend{
+    margin-top: 15px;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+
+#zoneValuesU label{
+    margin-right: 20px;
+    
+}
+
+#showValuesConU{
+    background: #18122B;
+    margin-top: 10px;
+}
+
+.botones{
+    background: #18122B;
+    
+    
+}
+
+.uno, .dos, .tres{
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+#captureValuesConjunto{
+    background: #18122B;
+    margin-top: 15px;
+}
+
+#captureValuesConjunto #cantidadValores,#cantidadValores2,#cantidadValores3 {
+    margin-left: 20px;
+}
+
+#captureValuesConjunto label{
+    font-size: 20px;
+}
+
+#captureValuesConjunto button{
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+#zoneValues{
+    background: #18122B;
+    margin-top: 10px;
+}
+
+#zoneValues label{
+    margin-right: 10px;
+}
+
+#zoneValues #btnSend{
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+#showCon{
+    background: #18122B;
+    margin-top: 10px;
+}
+
+#operations{
+    background: #18122B;
+    margin-top: 15px;
+    
+}
+
+
+
+.contenedor2 label{
+    font-size: 20px;
+    
+    
+}
+
+#showOp{
+    background: #18122B;
+    margin-top: 10px;
+}
+

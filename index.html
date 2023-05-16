@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conjuntos</title>
+  <link rel="shortcut icon" href="./img/conjuntos.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <a class="return" href="./Inicio.html">
+      <img src="./img/deshacer (1).png" alt="">
+    </a>
+
+    
+    
+    <h1 class="titulo">conjuntos</h1>
+    <p class="parrafo">Cuantos valores desea ingresar en el conjunto universal?</p>
+    <input type="text" id="conjuntoU">
+    <button class="btn1" id="btnSendU">Enviar</button>
+    <div id="zoneValuesU">
+
+    </div>
+    <div id="showValuesConU">
+
+    </div>
+    <div id="elseIfinputIsEmpty2">
+
+    </div>
+    <br>
+    
+    
+
+    <div id="Contenedor2" class="ver contenedor2">
+      <p class="parrafo">Con cuantos conjuntos desea trabajar ?</p>
+      <div class="botones">
+
+      
+      <button class="uno" id="uno" disabled>Uno</button>
+      <button class="dos" id="dos" disabled>Dos</button>
+      <button class="tres" id="tres" disabled>Tres</button>
+      <br>
+    </div>
+
+      <div id="captureValuesConjunto">
+
+      </div>
+
+      <div id="elseIfinputIsEmpty">
+
+      </div>
+      <div id="zoneValues">
+
+      </div>
+      <div id="showCon">
+
+      </div>
+      <br>
+      <label for="">Que operacion desea realizar?</label><br>
+      <div id="operations">
+        <button class="uno" id="btnU" disabled>Union</button>
+        <button class="dos" id="btnI" disabled>Interseccion</button>
+        <button class="tres" id="btnD" disabled>Diferencia</button>
+        <button class="uno" id="btnC" disabled>Complemento</button>
+        <div id="showOp">
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <script src="app.js"></script>
+
+  <script>
+     function mostrar() {
+      document.getElementById("Contenedor2").classList.toggle("ver")
+    }
+
+    document.getElementById("btnSendU").onclick = function () {
+      mostrar();
+    }
+
+  </script>
+</body>
+
+</html>
