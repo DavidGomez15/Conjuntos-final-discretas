@@ -14,12 +14,27 @@
     background:#18122B;
     border-radius: 20px;
     text-align: center;
+   
+}
+
+.container a{
+    color: #18122B;
 }
 
 .return{
     background: transparent;
     position: relative;
-    left: -660px;
+    left: -650px;
+    top: 20px;
+    
+}
+
+
+
+.return2{
+    background: transparent;
+    position: relative;
+    left: -640px;
     top: 20px;
     
 }
@@ -28,10 +43,23 @@
     background: #18122B;
 }
 
+.parrafo2{
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: -15px;
+    background: #18122B;
+}
+
 .parrafo{
     margin-bottom: 10px;
     font-size: 20px;
+    
 }
+
+.operaciones-text{
+    margin-top: -100px;
+}
+
 
 
 .titulo{
@@ -114,10 +142,10 @@ input{
     
 }
 
-.uno, .dos, .tres{
-    width: 100px;
+.uno, .dos, .tres, .cuatro{
+    width: 120px;
     height: 25px;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 15px;
     margin-right: 10px;
     border: 1px solid white;
@@ -170,6 +198,8 @@ input{
     background: #18122B;
     margin-top: 15px;
     
+    
+    
 }
 
 
@@ -183,5 +213,45 @@ input{
 #showOp{
     background: #18122B;
     margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+   
 }
+
+.show{
+    width: 120px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: relative;
+    top: -60px;
+    right: -890px;
+}
+
+.show:hover{
+    background: #860e7c;
+    width: 140px;
+}
+
+.cntenedor3{
+    width: 1000px;
+    height: 500px;
+    background: #18122B;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 3px solid white;
+    
+}
+
+.titulo2{
+    background: #18122B;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
 

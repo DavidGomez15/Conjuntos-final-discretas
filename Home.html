@@ -20,6 +20,10 @@
       <img src="./img/deshacer (1).png" alt="">
     </a>
 
+    <a class="return2" href="./Home.html">
+      <img src="./img/recargar.png" alt="">
+    </a>
+
     
     
     <h1 class="titulo">conjuntos</h1>
@@ -40,7 +44,7 @@
     
 
     <div id="Contenedor2" class="ver contenedor2">
-      <p class="parrafo">Con cuantos conjuntos desea trabajar ?</p>
+      <p class="parrafo2">Con cuantos conjuntos desea trabajar ?</p>
       <div class="botones">
 
       
@@ -64,17 +68,33 @@
 
       </div>
       <br>
-      <label for="">Que operacion desea realizar?</label><br>
+      <label class="operacion" for="">Que operacion desea realizar?</label>
       <div id="operations">
         <button class="uno" id="btnU" disabled>Union</button>
         <button class="dos" id="btnI" disabled>Interseccion</button>
         <button class="tres" id="btnD" disabled>Diferencia</button>
-        <button class="uno" id="btnC" disabled>Complemento</button>
-        <div id="showOp">
-        </div>
+        <button class="cuatro" id="btnC" disabled>Complemento</button>
+        
+        
       </div>
+      
+
+      
     </div>
   
+  </div>
+
+  <button id="show1" class="show">
+    Mostrar resultados
+  </button>
+
+  <div id="contenedor3" class="ver cntenedor3 ">
+    <h1 class="titulo2">Resultado de las operaciones</h1>
+    <div id="showOp">
+
+          
+    </div>
+
   </div>
   <script src="app.js"></script>
 
@@ -86,6 +106,15 @@
     document.getElementById("btnSendU").onclick = function () {
       mostrar();
     }
+
+    function mostrarResultados() {
+      document.getElementById("contenedor3").classList.toggle("ver")
+    }
+
+    document.getElementById("show1").onclick = function () {
+      mostrarResultados();
+    }
+
 
   </script>
 </body>
